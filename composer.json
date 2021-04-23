@@ -1,0 +1,25 @@
+{
+    "name": "love-dj/elasticsearch",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "elasticsearch/elasticsearch": "~7.0"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "myhsj",
+        "email": "myhsj@qq.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "es": "config/es.php"
+            }
+        }
+    }
+}
